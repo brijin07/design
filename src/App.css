@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+.navbarr{
+  background-color: black;
+  position: fixed;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icoo {
+  position: relative;
+  background-color: blue;
+  height: 40px;
+  width: 40px;
+  right: 40%;
+}
+.mainn{
+  position: relative;
+  
+} 
+
+a{
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.text{
+  position: absolute;
+  width: 40%;
+  height: 200px;
+  /* background-color: rgb(111, 107, 114); */
+  top: 25%;
+  left: 11%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.btns{
+  background-color: black;
   color: white;
+  border-radius: 20px;
+  border: none;
+  width: 200px;
+  height: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.btnu{
+  background-color: black;
+  border: none;
+  color: white;
+  height: 34px;
+  width: 30px;
+}
+.btns:hover{
+  background-color: rgb(27, 116, 116);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.img1{
+  width: 100%;
+  height: 380px;
+}
+.main1{
+  height: 200px;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main2{
+  /* background-color: blue; */
+  height:250px;
+  width: 150px;
+}
+
+.add{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  
+
+}
+
+.addo{
+
+  height: 120px;
+  width: 160px;
+
+}
+
+.log{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.footer a{
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+/* media query */
+
+@media (max-width:600px) {
+
+  .text{
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    top: 15%;
+    left: 10%;
+    line-height: 90%;
+    font-size: 10px;
+    
   }
-  to {
-    transform: rotate(360deg);
+
+  .btns{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 28px;
   }
+
+  .icoo {
+    position: relative;
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    right: 30%;
+  }
+
+  .img1{
+    width: 100%;
+    height: 200px;
+  }
+
+  .log{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .main11{
+    height: 120vh;
+   }
+
+ 
 }
